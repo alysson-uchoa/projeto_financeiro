@@ -18,28 +18,6 @@ public class Despesas {
         count++;
     }
 
-//    public void CalcularDia(int dia)
-//    {
-//        Calendar data = Calendar.getInstance();
-//        Integer hoje = data.get(Calendar.DAY_OF_MONTH);
-//
-//        if (!info) {
-//            if (dia - hoje > 1) {
-//                this.situacao = "Faltam " + (dia - hoje) + " dias para o vencimento";
-//            } else if (dia - hoje == 1) {
-//                this.situacao = "O vencimento é amanhã";
-//            } else if (dia - hoje == 0) {
-//                this.situacao = "O vencimento é hoje";
-//            } else {
-//                this.situacao = "Está vencido";
-//            }
-//        }
-//        else
-//        {
-//            this.situacao = "Pago";;
-//        }
-//    }
-
     @Override
     public String toString() {
 
@@ -63,7 +41,7 @@ public class Despesas {
         }
         else
         {
-            this.situacao = "Pago";;
+            this.situacao = "Pago";
         }
 
         if (info)
